@@ -39,12 +39,5 @@ To check the output of your running firmware, run the following:
 pio device monitor
 ```
 
-## Back to Normal
-To get your Tidbyt back to normal, you can run the following to flash the
-production firmware onto your Tidbyt:
-```
-pio run --target reset
-```
-
 [1]: https://github.com/tidbyt/pixlet
 [2]: https://docs.platformio.org/en/latest/core/installation/index.html
